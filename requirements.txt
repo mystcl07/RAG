@@ -1,0 +1,10 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+sqlalchemy==2.0.31
+pydantic==2.8.2
+langchain==0.2.16
+langchain-google-genai==1.0.10
+streamlit==1.38.0
+faiss-cpu==1.8.0
+pdfplumber==0.11.4
+python-dotenv==1.0.1
