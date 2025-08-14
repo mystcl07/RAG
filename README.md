@@ -1,7 +1,9 @@
 **Hybrid Retrieval System with RAG**
+
 This is a Retrieval-Augmented Generation (RAG) project built with LangChain, designed to answer questions from PDFs, URLs, or both using Semantic Search (FAISS) or Hybrid Search (FAISS + BM25). The system processes documents, indexes them for retrieval, and provides answers via a user-friendly Streamlit interface, with a FastAPI backend handling retrieval and generation.
 
 **Features**
+
 Document Processing: Upload PDFs or scrape URLs to extract and index text content.
 Hybrid Retrieval: Combines FAISS (semantic search) and BM25 (keyword-based search) with weights 0.7 and 0.3, respectively, for balanced retrieval.
 Query Support: Answers questions, summarizes content, or translates text based on user input.
@@ -10,11 +12,13 @@ Backend API: FastAPI handles document processing, retrieval, and conversation ma
 Conversation History: Stores user interactions in a SQLite database for context-aware responses.
 
 **Prerequisites**
+
 Python 3.9+
 Dependencies listed in requirements.txt
 A Gemini API key (for the language model)
 
 **Setup**
+
 **Clone the Repository:**
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
