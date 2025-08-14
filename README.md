@@ -32,7 +32,6 @@ Add your Gemini API key: plaintext GEMINI_API_KEY=your-api-key
 
 **Configure Directories:**
 Update the PDFS_DIRECTORY in backend/config.py to a valid path (e.g., ./pdfs) where uploaded PDFs will be stored.
-Ensure the directory exists and is writable: bash mkdir pdfs
 
 **Running the Project**
 **Start the FastAPI Backend:** **Open a terminal and run:**
@@ -42,9 +41,11 @@ Ensure the directory exists and is writable: bash mkdir pdfs
    streamlit run frontend/app.py
 
 **Access the Application:**
+
 Open your browser and navigate to http://localhost:8501 (default Streamlit port).
 Upload a PDF or provide a URL, then submit queries to retrieve answers or summaries.
-Usage
+
+**Usage**
 **Upload Documents:** Use the Streamlit interface to upload PDFs or enter URLs for scraping.
 Ask questions to get answers based on retrieved segments.
 **Search Modes:** Choose between Semantic Search (FAISS) or Hybrid Search (FAISS + BM25).
